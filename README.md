@@ -110,7 +110,9 @@ Strict parsing + segment delimiter handling
   `/Users/kenshi/Desktop/mirth_lab/ref_error`
 
 📸 **Screenshot:**  
-![File Reader](./screenshots/source_file_reader_settings.png)
+![File Reader](./screenshots/source_file_reader_settings_1.png)
+![File Reader](./screenshots/source_file_reader_settings_2.pngg)
+
 
 ---
 
