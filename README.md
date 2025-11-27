@@ -84,8 +84,22 @@ Copy code
 ---
 
 # 🧠 How It Works (Step-By-Step)
+## 1. File Reader Summary
+![File Reader](./screenshots/file_reader_summary.png)
 
-## 1. File Reader Source Connector
+---
+
+## 2. HL7 v2.x Data Types
+
+Inbound data type = HL7 v2.x  
+Outbound data type = JSON  
+Strict parsing + segment delimiter handling
+
+📸 **Screenshot:**  
+![Data Types](./screenshots/source_data_types.png)
+
+---
+## 3. File Reader Source Connector
 
 - Watches directory:  
   `/Users/kenshi/Desktop/mirth_lab/ref_in`
@@ -100,18 +114,8 @@ Copy code
 
 ---
 
-## 2. HL7 v2.x Data Types
 
-Inbound data type = HL7 v2.x  
-Outbound data type = JSON  
-Strict parsing + segment delimiter handling
-
-📸 **Screenshot:**  
-![Data Types](./screenshots/source_data_types.png)
-
----
-
-## 3. JavaScript Transformer
+## 4. JavaScript Transformer
 
 All HL7 REF_I12 fields (RF1, PID, PV1, SCH, PRD/AIP, AIG) are extracted and mapped into a structured JSON object.
 
@@ -125,7 +129,7 @@ JSON string is saved into the channel map under key: `referralJson`
 
 ---
 
-## 4. File Writer Destination
+## 5. File Writer Destination
 
 - Outputs JSON to:  
   `/Users/kenshi/Desktop/mirth_lab/json_output`
