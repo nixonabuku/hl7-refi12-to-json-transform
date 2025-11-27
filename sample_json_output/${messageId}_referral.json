@@ -1,0 +1,37 @@
+{
+	"message_type": "REF^I12",
+	"referral": {
+		"status": "A",
+		"priority": "R",
+		"service": "CARD",
+		"referral_datetime": ""
+	},
+	"patient": {
+		"mrn": "12345",
+		"assigning_authority": "CLINIC_A",
+		"identifier_type": "MR",
+		"last_name": "CLARK",
+		"first_name": "ANNA",
+		"dob": "1990-01-15T00:00",
+		"sex": "F"
+	},
+	"visit": {
+		"patient_class": "O",
+		"location": "CLINIC",
+		"room": "ROOM1"
+	},
+	"provider": {
+		"id": "1234",
+		"last_name": "DOE",
+		"first_name": "JOHN"
+	},
+	"appointment": {
+		"id": "APT123",
+		"start": "2025-11-25T10:30",
+		"end": "",
+		"duration": 30,
+		"duration_unit": "MIN",
+		"status": "BOOKED",
+		"clinic": "CARD_CLINIC"
+	}
+}
