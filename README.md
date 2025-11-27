@@ -111,7 +111,7 @@ Strict parsing + segment delimiter handling
 
 📸 **Screenshot:**  
 ![File Reader](./screenshots/source_file_reader_settings_1.png)
-![File Reader](./screenshots/source_file_reader_settings_2.pngg)
+![File Reader](./screenshots/source_file_reader_settings_2.png)
 
 
 ---
