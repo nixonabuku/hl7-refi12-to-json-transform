@@ -123,6 +123,7 @@ All HL7 REF_I12 fields (RF1, PID, PV1, SCH, PRD/AIP, AIG) are extracted and mapp
 
 JSON string is saved into the channel map under key: `referralJson`
 
+Here is the Java script code used for the transformation:(./js_code_used/to_json.js)  
 📸 **Screenshots:**  
 ![Transformer Script Top](./screenshots/transformer_script_top.png)  
 ![Transformer Script Middle](./screenshots/transformer_script_middle.png)  
