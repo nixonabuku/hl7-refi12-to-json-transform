@@ -141,6 +141,8 @@ JSON string is saved into the channel map under key: `referralJson`
 
 # 📄 Sample Output JSON
 
+## 📄 Sample Output JSON
+
 ```json
 {
   "message_type": "REF^I12",
@@ -179,6 +181,8 @@ JSON string is saved into the channel map under key: `referralJson`
     "clinic": "CARD_CLINIC"
   }
 }
+```
+
 📸 Screenshot:
 
 🧩 Skills Demonstrated
