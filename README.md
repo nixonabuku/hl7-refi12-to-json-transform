@@ -7,7 +7,7 @@ This is the type of workflow used every day in real hospitals and EHR integratio
 
 ---
 
-## ⭐ Project Highlights (What Recruiters Should Notice)
+## ⭐ Project Highlights
 
 - **Hands-on experience building a real HL7 interface (REF_I12 workflow).**
 - **Strong Mirth Connect skills** (file reader, transformer, channel map, file writer, data types configuration).
